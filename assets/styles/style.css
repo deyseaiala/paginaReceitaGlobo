@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+}
+
+.barraMenu {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFC800;
+}
+
+
+.letraRoxa {
+    color: #b5179e;
+}
+
+.questrial-regular {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+h1, h2, h3 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-weight: bolder
+}
+
+.fontDestaque {
+    font-size: 6ch;
+    font-weight: bolder;
+}
+
+
+#menu{
+    font-size: large;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+}
+
+.imgBolos {
+    border-radius: 10px;
+}
+
+.dimensaoTextos {
+    width: 917px;
+}
+
+a {
+    text-decoration: none;
+    color: #b5179e;
+}
+
+.alinhaCentro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input, button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(184, 179, 179);
+    background-color: rgb(217, 207, 207);
+}
+
+form button{
+    color:#b5179e;
+    font-weight: 600;
+}
+
+.margtop{
+    margin-top: 5px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+}
+
+
+::-webkit-input-placeholder{
+    color:#b5179e;
+    font-weight: 600;
+    font-family: "Questrial", sans-serif;
+    font-style: normal;    
+}
