@@ -21,10 +21,23 @@
             <a id="menu">MENU</a>
             <a href="https://receitas.globo.com/">receitas</a>
             <form>
-            <input type="search" placeholder="BUSCAR"/>
+            <input type="search" name="campoPesquisa" id="campoPesquisa" placeholder="BUSCAR"/>
             </form>
         </header>
         <main>
+
+            <form id="dadosCadastro" class="cadastro alinhaCentro">
+                <h4 class="letraRoxa">Cadastre-se para receber novas receitas!</h4>
+
+                <label for="nomeUsuario">Insira seu nome:</label>
+                <input type="text" name="nomeUsuario" id="nomeUsuario" value="">
+
+                <label for="emailUsuario">Email:</label>
+                <input type="email" id="emailUsuario" name="emailUsuario" value=""><br>
+
+                <button type="submit" id="enviar">Enviar</button>
+            </form><br>
+
             <h1>Receita de bolo de chocolate fácil</h1>
             <img src="./assets/bolo-de-chocolate-facil.jpg" height="537" width="917" alt="Bolo de chocolate fácil — Foto: Receitas" class="imgBolos"/>
             <ul class="barraMenu letraRoxa">
@@ -32,7 +45,9 @@
                 <li>1h</li>
                 <li>8 porções</li>
             </ul>
-            <p class="dimensaoTextos"> O bolo de chocolate é um queridinho dos brasileiros. Esta receita é fácil, simples e combina com um cafezinho no lanche da tarde. Para preparar a massa do bolo, você vai precisar de chocolate em pó, farinha de trigo, açúcar, ovos, fermento em pó e óleo.</p>
+            
+
+            <p id= "primeiroParagrafo" class="dimensaoTextos"> O bolo de chocolate é um queridinho dos brasileiros. Esta receita é fácil, simples e combina com um cafezinho no lanche da tarde. Para preparar a massa do bolo, você vai precisar de chocolate em pó, farinha de trigo, açúcar, ovos, fermento em pó e óleo.</p>
 
             <p class="dimensaoTextos"> O bolo de chocolate fácil é finalizado com uma cobertura que deixa o bolo bastante molhadinho e saboroso. Saiba como preparar a receita!</p>
 
@@ -80,21 +95,15 @@
             <img src="./assets/bolo-de-chocolate-facil-receita.jpg" height="537" width="917" alt="Bolo de chocolate fácil — Foto: Receitas" class="imgBolos"/>
 
             <p class="dimensaoTextos">Quer dar uma incrementada no bolo de chocolate? Aproveite e confira a receita de <a href="https://receitas.globo.com/receita-de-bolo-de-chocolate-simples-523f648f4d38856bdc000043.ghtml" target="_blank" >bolo de chocolate com calda de ganache</a>. O <a href="https://receitas.globo.com/bolo-de-chocolate-com-rum-gnt-1.ghtml" target="_blank">bolo de chocolate com rum</a> e <a href="https://receitas.globo.com/bolo-de-chocolate-com-calda-de-brigadeiro-gnt.ghtml" target="_blank"></a>bolo de chocolate com calda de brigadeiro</a> também são sugestões simples e fáceis.</p>
-            <form class="cadastro alinhaCentro">
-                <h4 class="letraRoxa">Cadastre-se para receber novas receitas!</h4>
 
-                <label for="nome">Insira seu nome:</label>
-                <input type="text" name="nomeUsuario" id="nomeUsuario" value="" >
-
-                <label for="email">Email:</label>
-                <input type="email" id="emailUsuario" name="emailUsuario" value=""><br>
-
-                <button type="submit">Cadastro</button>
-            </form><br>
+        <br>
 
         <footer class="barraMenu letraRoxa">
             Feito por Deyse Aiala
         </footer>
+
+        <script type="text/javascript" src="./assets/js/script.js">
+        </script>    
     </main>
     </div>
     
