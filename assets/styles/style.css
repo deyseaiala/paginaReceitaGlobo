@@ -112,3 +112,18 @@ footer{
     font-family: "Questrial", sans-serif;
     font-style: normal;    
 }
+
+dialog{
+    display: flex;
+    padding: 20;
+}
+
+.marg20{
+    margin-left: 20px;
+
+}
+
+::backdrop dialog{
+    background-color:rgb(98, 96, 96);
+
+}
