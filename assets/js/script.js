@@ -1,7 +1,7 @@
-//function darBoasVindas(){
-//    alert("Seja bem vindo(a)! Aqui você irá aprender muitas receitas.");
-//}
-//darBoasVindas();
+function darBoasVindas(){
+    alert("Seja bem vindo(a)! Aqui você irá aprender muitas receitas.");
+}
+darBoasVindas();
 
 function personalizarParagrafo(){
 document.getElementById("enviar").addEventListener("click", function(event){
